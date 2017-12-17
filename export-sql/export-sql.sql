@@ -1,0 +1,3 @@
+UPDATE mod178_options SET option_value = replace(option_value, 'http://jardindesmalices.com', 'http://localhost:8888/wp_marlene-dru/') WHERE option_name = 'home' OR option_name = 'siteurl';
+UPDATE mod178_posts SET guid = replace(guid, 'http://jardindesmalices.com', 'http://localhost:8888/wp_marlene-dru/');
+UPDATE mod178_posts SET post_content = replace(post_content, 'http://jardindesmalices.com', 'http://localhost:8888/wp_marlene-dru/');

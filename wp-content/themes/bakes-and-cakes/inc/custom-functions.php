@@ -386,13 +386,7 @@ function bakes_and_cakes_footer_top(){
                 </div>
                 <div class="col center">   
                     <section class="widget widget_contact_form">    
-                        <div class="form-holder"> 
-                            <?php     
-                                if (is_active_sidebar('footer-second')) {
-                                    dynamic_sidebar('footer-second');
-                                }
-                            ?>
-                        </div>
+                        
                     </section>
                 </div>
                 <div class="col">

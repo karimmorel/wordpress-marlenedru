@@ -14,13 +14,9 @@ if(!is_page_template('template-home.php')){ echo '</div></div>'; } ?>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		
 		<div class="container">
-
-			<?php 
-            do_action( 'bakes_and_cakes_footer_top' );
-			do_action( 'bakes_and_cakes_footer' ); ?>
-		
-		</div>
-	
+		<div class="site-info">        
+        <span><a href="http://localhost:8888/wp_marlene-dru/">La Liquoristerie Jardin des Malices</a></span></div><!-- .site-info -->
+	</div>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
