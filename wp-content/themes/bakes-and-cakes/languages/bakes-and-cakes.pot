@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 12:30+0000\n"
+"POT-Creation-Date: 2017-10-27 10:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -118,31 +118,31 @@ msgstr ""
 msgid "Primary"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:162
 msgid "Right Sidebar"
 msgstr ""
 
-#: functions.php:173
+#: functions.php:172
 msgid "Google Map Widget"
 msgstr ""
 
-#: functions.php:175
+#: functions.php:174
 msgid "Widget for Google map section( Use Text widget for Google Map )."
 msgstr ""
 
-#: functions.php:183
+#: functions.php:182
 msgid "Footer First"
 msgstr ""
 
-#: functions.php:193
+#: functions.php:192
 msgid "Footer Second"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:194
 msgid "Here you can use text widget to display Contact Form."
 msgstr ""
 
-#: functions.php:203
+#: functions.php:202
 msgid "Footer Third"
 msgstr ""
 
@@ -179,24 +179,20 @@ msgstr ""
 msgid "Continue Reading"
 msgstr ""
 
-#: inc/custom-functions.php:421
-msgid "&copy;"
-msgstr ""
-
 #: inc/custom-functions.php:424
-msgid "All Rights Reserved."
+msgid "&copy; "
 msgstr ""
 
-#: inc/custom-functions.php:427
+#: inc/custom-functions.php:431
 msgid "Bakes and Cakes by Rara Theme."
 msgstr ""
 
-#: inc/custom-functions.php:429
+#: inc/custom-functions.php:433
 #, php-format
 msgid "Powered by %s"
 msgstr ""
 
-#: inc/custom-functions.php:429
+#: inc/custom-functions.php:433
 msgid "https://wordpress.org/"
 msgstr ""
 
@@ -449,52 +445,78 @@ msgstr ""
 msgid "Choose Slider Category"
 msgstr ""
 
-#: inc/info.php:11
-msgid "Information Links"
+#: inc/customizer.php:1153
+msgid "Blog Page Settings"
 msgstr ""
 
-#: inc/info.php:21
-msgid "Need help?"
+#: inc/customizer.php:1171
+msgid "Enable Full content"
 msgstr ""
 
-#: inc/info.php:22
-msgid "View demo"
+#: inc/customizer.php:1181
+msgid "Footer Settings"
 msgstr ""
 
-#: inc/info.php:22 inc/info.php:23 inc/info.php:24 inc/info.php:25
-#: inc/info.php:26 inc/info.php:27
+#: inc/customizer.php:1198
+msgid "Copyright Info"
+msgstr ""
+
+#: inc/demo-content.php:11
+msgid "Demo Content Import"
+msgstr ""
+
+#: inc/demo-content.php:22
+#, php-format
+msgid ""
+"Bakes and Cakes comes with demo content import feature. You can import the "
+"demo content with just one click. For step-by-step video tutorial, %1$sClick "
+"here%2$s"
+msgstr ""
+
+#: inc/demo-content.php:38
+msgid "Plugin required"
+msgstr ""
+
+#: inc/demo-content.php:38
+msgid "Rara One Click Demo Import"
+msgstr ""
+
+#: inc/demo-content.php:41
+msgid "Download Demo Content Zip File"
+msgstr ""
+
+#: inc/demo-content.php:41 inc/info.php:41 inc/info.php:42 inc/info.php:43
+#: inc/info.php:44
 msgid "here"
 msgstr ""
 
-#: inc/info.php:23
-msgid "View documentation"
+#: inc/info.php:11 inc/info.php:41
+msgid "Video Tutorial"
 msgstr ""
 
-#: inc/info.php:24
-msgid "Theme info"
+#: inc/info.php:30
+msgid ""
+"Check out step-by-step video tutorial to create your website like the demo "
+"of Bakes and Cakes WordPress theme."
 msgstr ""
 
-#: inc/info.php:25
-msgid "Support ticket"
+#: inc/info.php:42
+msgid "Theme Demo"
 msgstr ""
 
-#: inc/info.php:26
+#: inc/info.php:43
+msgid "Support Ticket"
+msgstr ""
+
+#: inc/info.php:44
 msgid "Rate this theme"
 msgstr ""
 
-#: inc/info.php:27
-msgid "More WordPress Themes"
-msgstr ""
-
-#: inc/info.php:31
-msgid "About Bakes and Cakes"
-msgstr ""
-
-#: inc/info.php:152
+#: inc/info.php:174
 msgid "Pro Available"
 msgstr ""
 
-#: inc/info.php:154
+#: inc/info.php:176
 msgid "VIEW PRO THEME"
 msgstr ""
 
@@ -550,99 +572,111 @@ msgid "Edit %s"
 msgstr ""
 
 #. Base ID
-#: inc/widget-popular-post.php:25
+#: inc/widget-popular-post.php:26
 msgid "RARA: Popular Post"
 msgstr ""
 
-#: inc/widget-popular-post.php:26
+#: inc/widget-popular-post.php:27
 msgid "A Popular Post Widget"
 msgstr ""
 
-#: inc/widget-popular-post.php:40 inc/widget-popular-post.php:96
-#: inc/widget-popular-post.php:139
+#: inc/widget-popular-post.php:41 inc/widget-popular-post.php:97
+#: inc/widget-popular-post.php:140
 msgid "Most Viewed"
 msgstr ""
 
-#: inc/widget-popular-post.php:71 inc/widget-popular-post.php:72
-#: inc/widget-recent-post.php:74 inc/widget-recent-post.php:75
+#: inc/widget-popular-post.php:72 inc/widget-popular-post.php:73
+#: inc/widget-recent-post.php:75 inc/widget-recent-post.php:76
 #, php-format
 msgid "%1$s"
 msgstr ""
 
-#: inc/widget-popular-post.php:104 inc/widget-recent-post.php:109
-#: inc/widget-social-links.php:97
+#: inc/widget-popular-post.php:105 inc/widget-recent-post.php:110
+#: inc/widget-social-links.php:120
 msgid "Title"
 msgstr ""
 
-#: inc/widget-popular-post.php:109 inc/widget-recent-post.php:114
+#: inc/widget-popular-post.php:110 inc/widget-recent-post.php:115
 msgid "Number of Posts"
 msgstr ""
 
-#: inc/widget-popular-post.php:115 inc/widget-recent-post.php:120
+#: inc/widget-popular-post.php:116 inc/widget-recent-post.php:121
 msgid "Show Post Thumbnail"
 msgstr ""
 
-#: inc/widget-popular-post.php:120 inc/widget-recent-post.php:125
+#: inc/widget-popular-post.php:121 inc/widget-recent-post.php:126
 msgid "Show Post Date"
 msgstr ""
 
 #. Base ID
-#: inc/widget-recent-post.php:25
+#: inc/widget-recent-post.php:26
 msgid "RARA: Recent Post"
 msgstr ""
 
-#: inc/widget-recent-post.php:26
+#: inc/widget-recent-post.php:27
 msgid "A Recent Post Widget"
 msgstr ""
 
-#: inc/widget-recent-post.php:40 inc/widget-recent-post.php:101
-#: inc/widget-recent-post.php:143
+#: inc/widget-recent-post.php:41 inc/widget-recent-post.php:102
+#: inc/widget-recent-post.php:144
 msgid "Recent Posts"
 msgstr ""
 
 #. Base ID
-#: inc/widget-social-links.php:24
+#: inc/widget-social-links.php:25
 msgid "RARA: Social Links"
 msgstr ""
 
-#: inc/widget-social-links.php:25
+#: inc/widget-social-links.php:26
 msgid "A Social Links Widget"
 msgstr ""
 
-#: inc/widget-social-links.php:39 inc/widget-social-links.php:85
-#: inc/widget-social-links.php:151
+#: inc/widget-social-links.php:40 inc/widget-social-links.php:105
+#: inc/widget-social-links.php:189
 msgid "Social Media"
 msgstr ""
 
-#: inc/widget-social-links.php:56 inc/widget-social-links.php:102
+#: inc/widget-social-links.php:61 inc/widget-social-links.php:125
 msgid "Facebook"
 msgstr ""
 
-#: inc/widget-social-links.php:58 inc/widget-social-links.php:107
+#: inc/widget-social-links.php:64 inc/widget-social-links.php:130
 msgid "Twitter"
 msgstr ""
 
-#: inc/widget-social-links.php:60
+#: inc/widget-social-links.php:67
 msgid "Linkedin"
 msgstr ""
 
-#: inc/widget-social-links.php:62 inc/widget-social-links.php:117
+#: inc/widget-social-links.php:70 inc/widget-social-links.php:140
 msgid "Instagram"
 msgstr ""
 
-#: inc/widget-social-links.php:64 inc/widget-social-links.php:122
+#: inc/widget-social-links.php:73 inc/widget-social-links.php:145
 msgid "Google Plus"
 msgstr ""
 
-#: inc/widget-social-links.php:66 inc/widget-social-links.php:127
+#: inc/widget-social-links.php:76 inc/widget-social-links.php:150
 msgid "Pinterest"
 msgstr ""
 
-#: inc/widget-social-links.php:68 inc/widget-social-links.php:132
+#: inc/widget-social-links.php:79 inc/widget-social-links.php:155
 msgid "YouTube"
 msgstr ""
 
-#: inc/widget-social-links.php:112
+#: inc/widget-social-links.php:82 inc/widget-social-links.php:160
+msgid "OK"
+msgstr ""
+
+#: inc/widget-social-links.php:85 inc/widget-social-links.php:165
+msgid "VK"
+msgstr ""
+
+#: inc/widget-social-links.php:88 inc/widget-social-links.php:170
+msgid "Xing"
+msgstr ""
+
+#: inc/widget-social-links.php:135
 msgid "LinkedIn"
 msgstr ""
 
@@ -654,7 +688,7 @@ msgstr ""
 msgid "Sidebar displaying only in woocommerce pages."
 msgstr ""
 
-#: sections/section-about.php:28 template-parts/content.php:69
+#: sections/section-about.php:28 template-parts/content.php:70
 msgid "Read More"
 msgstr ""
 
@@ -684,12 +718,12 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: template-parts/content-page.php:29 template-parts/content.php:58
+#: template-parts/content-page.php:29 template-parts/content.php:59
 msgid "Pages:"
 msgstr ""
 
 #. translators: %s: Name of current post.
-#: template-parts/content.php:42 template-parts/content.php:51
+#: template-parts/content.php:43 template-parts/content.php:52
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""

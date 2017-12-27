@@ -1144,7 +1144,62 @@ function bakes_and_cakes_customize_register( $wp_customize ) {
             'choices' => $bakes_and_cakes_option_categories,
         )
     );
-    /** Slider Settings Ends */     
+    /** Slider Settings Ends */    
+
+    /** Blog page Settings */
+    $wp_customize->add_section(
+        'bakes_and_cakes_blog_page_settings',
+        array(
+            'title' => __( 'Blog Page Settings', 'bakes-and-cakes' ),
+            'priority' => 55,
+            'capability' => 'edit_theme_options',
+        )
+    );
+
+    /** Enable/Disable full content in blog page */
+    $wp_customize->add_setting(
+        'bakes_and_cakes_ed_full_content',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'bakes_and_cakes_sanitize_checkbox',
+        )
+    );
+    
+    $wp_customize->add_control(
+        'bakes_and_cakes_ed_full_content',
+        array(
+            'label' => __( 'Enable Full content', 'bakes-and-cakes' ),
+            'section' => 'bakes_and_cakes_blog_page_settings',
+            'type' => 'checkbox',
+        )
+    );
+    
+     /** Footer Section */
+    $wp_customize->add_section(
+        'bakes_and_cakes_footer_section',
+        array(
+            'title' => __( 'Footer Settings', 'bakes-and-cakes' ),
+            'priority' => 70,
+        )
+    );
+    
+    /** Copyright Text */
+    $wp_customize->add_setting(
+        'bakes_and_cakes_footer_copyright_text',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'wp_kses_post',
+        )
+    );
+    
+    $wp_customize->add_control(
+        'bakes_and_cakes_footer_copyright_text',
+        array(
+            'label' => __( 'Copyright Info', 'bakes-and-cakes' ),
+            'section' => 'bakes_and_cakes_footer_section',
+            'type' => 'textarea',
+        )
+    );
  
 
     /**
