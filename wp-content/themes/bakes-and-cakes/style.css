@@ -3331,10 +3331,46 @@ nav ul li
 .wpcf7 input
 {
 	border: 1px solid #dddcda;
-    width: 100%;
-    font-size: 18px;
     line-height: 22px;
     border-radius: 0;
-    padding: 18px 22px;
     box-sizing: border-box;
+    padding:6px;
+    margin-bottom:12px;
+}
+.wpcf7 .customer-info input
+{
+	width:100%;
+	padding: 18px 22px;
+    font-size: 18px;
+}
+.wpcf7 .container .wpcf7-number
+{
+	float:right;
+}
+.wpcf7-submit
+{
+	border: 2px solid #555 !important;
+    color: #555 !important;
+    display: inline-block !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px !important;
+    line-height: 20px !important;
+    padding: 11px 37px !important;
+    text-transform: uppercase !important;
+    -webkit-transition: all 0.2s ease 0s !important;
+    -moz-transition: all 0.2s ease 0s !important;
+    transition: all 0.2s ease 0s !important;
+    background: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+}
+.font-niconne
+{
+	font-family: 'Niconne', cursive;
+}
+.pink-font
+{
+	color:#f6a8c6 !important;
 }
