@@ -3319,11 +3319,6 @@ footer hr
 	margin:16px 0 16px 0;
 	width:80%;
 }
-nav ul li
-{
-	height:28px;
-	line-height:28px;
-}
 .wpcf7
 {
 	color:#666;
@@ -3376,7 +3371,33 @@ nav ul li
 }
 .featured
 {
-	-webkit-box-shadow: 4px 4px 50px 0px rgba(0,0,0,0.25);
-	-moz-box-shadow: 4px 4px 50px 0px rgba(0,0,0,0.25);
-	box-shadow: 4px 4px 50px 0px rgba(0,0,0,0.25);
+	background:#fff;
+}
+.slider-container
+{
+	width:100%;
+	max-width:1200px;
+	margin:20px auto 20px auto;
+	background:#EBACC5;
+	padding:16px;
+}
+.featured
+{
+	color:#fff;
+	background:#EBACC5;
+	padding:40px;
+}
+.featured-slider
+{
+	margin-bottom:24px !important;
+}
+footer
+{
+	-webkit-box-shadow: 0px -30px 83px -29px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px -30px 83px -29px rgba(0,0,0,0.3);
+box-shadow: 0px -30px 83px -29px rgba(0,0,0,0.3);
+}
+.banner .banner-text .text .title
+{
+	font-size:36px !important;
 }

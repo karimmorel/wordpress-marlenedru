@@ -47,7 +47,7 @@ if( is_home() || ! $enabled_sections || ! ( is_front_page()  || is_page_template
 			</div>
 		</div>
 	</div>
-	<div class="site-info"><b>LA LIQUORISTERIE JARDIN DES MALICES</b></div>
+	<div class="site-info"><b>LA LIQUORISTERIE JARDIN DES MALICES</b><br/><small>L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</small></div>
 
 	
 </footer><!-- #colophon -->
