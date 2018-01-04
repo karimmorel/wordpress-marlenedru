@@ -3401,3 +3401,8 @@ box-shadow: 0px -30px 83px -29px rgba(0,0,0,0.3);
 {
 	font-size:36px !important;
 }
+.post-thumbnail
+{
+	max-height:460px;
+	overflow-y: hidden;
+}
